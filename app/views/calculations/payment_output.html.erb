@@ -1,0 +1,8 @@
+<h1>
+  Payment
+</h1>
+
+<p>
+  A <%= @years %> year loan of <%= number_to_currency(@principal, precision: 0) %>, with an annual interest rate of <%= @rounded_rate %>%, requires a monthly payment of <%= number_to_currency(@output) %>
+</p>
+
